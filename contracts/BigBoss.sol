@@ -14,7 +14,6 @@ contract BigBoss is IUtilityContract {
 
     uint256 public number;
     address public bigBoss;
-
     bool private initialized;
 
     function initialize(bytes memory _initData) external notInitialized returns(bool) {
