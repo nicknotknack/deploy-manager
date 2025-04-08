@@ -32,8 +32,8 @@ contract BigBoss is IUtilityContract {
         return abi.encode(_number, _bigBoss);
     }
 
-    function doSmth() external view returns(uint256, address) {
-        return (number, bigBoss);
-    }
+    // function doSmth() external view returns(uint256, address) {
+    //     return (number, bigBoss);
+    // }
 
 }
