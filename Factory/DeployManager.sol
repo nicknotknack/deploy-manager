@@ -19,7 +19,7 @@ contract DeployManager is Ownable {
     struct ContractInfo{
         uint256 fee;
         bool isActive;
-        uint256 registredAt; //0
+        uint256 registredAt;
     }
 
     mapping(address => address[]) public deployedContracts;
